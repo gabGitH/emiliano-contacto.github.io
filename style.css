@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.up{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 2px 16px;
+    text-decoration: none;
+}
+
+.nomb{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+.info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.down{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 12px;
+}
+.txtbox{
+    list-style-type: none;
+    text-align: justify;
+    float: left;
+}
+.txtboxs{
+    margin: auto;
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    width: 30%;
+    border: solid #333 3px;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: white;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container{
+    display: flex;
+    position: fixed;
+    margin: auto;
+    background-color: transparent;
+    top: 30%;
+    left: 10%;
+    width: 30%;
+    padding: 10px;
+}
+.flex-container div{
+    background-color: #333;
+    padding: 6px 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.flex-container div:hover{
+    background-color: #111;
+}
+.skilset{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
